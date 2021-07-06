@@ -4,7 +4,7 @@ There is some help for setup your discord bot :3
 
 Create a main.js (or a bot.js or index.js) and put this code in:
 
-//CODE IN YOUR MAIN FILE
+```//CODE IN YOUR MAIN FILE
 const bdmjs = require("BDM.js")
 const dbot = new bdmjs.Bot({
 token: "TOKEN", //Discord Bot Token
@@ -20,4 +20,4 @@ dbot.readyCommand({
     channel: "", //You can use this or not.
     code: `$log[Ready on $userTag[$clientID]]` //Enter the code / message.
 })
-//CODE IN YOUR MAIN FILE
+//CODE IN YOUR MAIN FILE```
