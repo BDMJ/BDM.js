@@ -1,7 +1,7 @@
 {
-  "name": "bdmjs",
+  "name": " Your bot name",
   "version": "1.0.0",
-  "description": "A testing bot for bdmjs",
+  "description": "Your bot description",
   "main": "main.js",
   "scripts": {
     "start": "node main.js"

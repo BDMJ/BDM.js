@@ -1,7 +1,7 @@
 const bdmjs = require("BDM.js")
 
 const dbot = new bdmjs.Bot({
-token: "TOEKN", //Discord Bot Token
+token: "TOKEN", //Discord Bot Token
 prefix: "$getServerVar[prefix]" //Customizable
 })
 dbot.onMessage() //Allows to run Commands
